@@ -1,0 +1,54 @@
+body{
+    margin: 35px 15%;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+a:link{
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover{
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.just{
+    text-align: justify;
+}
+
+.icons{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.icon-holder{
+    margin: 1%;
+}
+
+.icon{
+    max-width: 135px;
+    max-height: 135px;
+}
+
+.footer-text{
+    font-size: 13px;
+    text-align: center;
+}
